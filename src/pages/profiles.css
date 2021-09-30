@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #F5C6A5;
+    margin: 10px 50px;
+}
+.user{
+    flex: 30%;
+    background-color: #316B83;
+    background-size: 100% 80%;
+    margin: 50px 100px;
+    padding: 25px 100px;
+}
+.text{
+    padding: 5px;
+    background-color: lightpink;
+    border: 8px #D5BFBF;
+    border-radius: 5px;
+}
+.name{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+.email{
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+}

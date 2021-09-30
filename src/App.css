@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navBar{
+  background-color: #316B83;
+  background-size: 100% 100%;
+  padding: 25px;
+  margin: 10px 50px;
+  border-radius: 30px;
+  border-bottom: 1px #D5BFBF solid;
+  display: flex;
+  flex-direction: row;
+}
+.nav-logo{
+  color: #D5BFBF;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 35px;
+  flex: 50%;
+}
+.nav-link{
+  text-align: center;
+  color: #D5BFBF;
+  flex: 50%;
+  
+}
+Link{
+  text-decoration: none;
+  text-align: center;
+  color: #D5BFBF;
+  float: right;
+}
+.body{
+  margin-top: 150px;
+}
+.dot{
+  width: 200px;
+  height: 200px;
+  border: 20px grey solid;
+  border-top: 20px solid #3498db;
+  border-radius: 100px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
